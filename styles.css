@@ -1,0 +1,41 @@
+    header {
+        background: #333;
+        color: darkorchid;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo {
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color:darkorchid;
+    text-decoration: none;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relativ;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
